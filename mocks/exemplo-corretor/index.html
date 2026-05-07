@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ueslei Corretor de Imóveis — Barra Mansa</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Segoe UI', sans-serif; color: #1a1a1a; background: #fff; }
+
+    /* NAV */
+    nav { background: #1a1a1a; padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center; }
+    nav .logo { color: #C8963E; font-size: 1.2rem; font-weight: 700; letter-spacing: 1px; }
+    nav ul { list-style: none; display: flex; gap: 2rem; }
+    nav ul a { color: #fff; text-decoration: none; font-size: 0.9rem; }
+
+    /* HERO */
+    .hero { background: linear-gradient(135deg, #1a1a1a 60%, #2c2c2c); color: #fff; padding: 5rem 2rem; text-align: center; }
+    .hero h1 { font-size: 2.5rem; margin-bottom: 1rem; line-height: 1.2; }
+    .hero h1 span { color: #C8963E; }
+    .hero p { font-size: 1.1rem; color: #ccc; max-width: 600px; margin: 0 auto 2rem; }
+    .btn { display: inline-block; background: #C8963E; color: #fff; padding: 0.9rem 2rem; border-radius: 14px; text-decoration: none; font-weight: 600; font-size: 1rem; }
+    .btn:hover { background: #b07d2e; }
+
+    /* SERVIÇOS */
+    .servicos { padding: 4rem 2rem; background: #f9f7f4; text-align: center; }
+    .servicos h2 { font-size: 1.8rem; margin-bottom: 2.5rem; }
+    .cards { display: flex; gap: 1.5rem; justify-content: center; flex-wrap: wrap; }
+    .card { background: #fff; border: 1px solid #e8e0d5; border-radius: 14px; padding: 2rem; max-width: 260px; }
+    .card .icon { font-size: 2rem; margin-bottom: 1rem; }
+    .card h3 { font-size: 1.1rem; margin-bottom: 0.5rem; color: #1a1a1a; }
+    .card p { font-size: 0.9rem; color: #666; line-height: 1.6; }
+
+    /* SOBRE */
+    .sobre { padding: 4rem 2rem; max-width: 700px; margin: 0 auto; text-align: center; }
+    .sobre h2 { font-size: 1.8rem; margin-bottom: 1rem; }
+    .sobre p { color: #555; line-height: 1.8; font-size: 1rem; }
+
+    /* CONTATO */
+    .contato { background: #1a1a1a; color: #fff; padding: 4rem 2rem; text-align: center; }
+    .contato h2 { font-size: 1.8rem; margin-bottom: 0.5rem; }
+    .contato p { color: #aaa; margin-bottom: 2rem; }
+    .contato .btn { background: #25D366; }
+    .contato .btn:hover { background: #1ebe59; }
+
+    /* FOOTER */
+    footer { background: #111; color: #666; text-align: center; padding: 1.5rem; font-size: 0.85rem; }
+
+    /* WPP FLUTUANTE */
+    .wpp-float { position: fixed; bottom: 1.5rem; right: 1.5rem; background: #25D366; color: #fff; width: 56px; height: 56px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.6rem; text-decoration: none; box-shadow: 0 4px 12px rgba(0,0,0,0.2); }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <div class="logo">UESLEI IMÓVEIS</div>
+    <ul>
+      <li><a href="#servicos">Serviços</a></li>
+      <li><a href="#sobre">Sobre</a></li>
+      <li><a href="#contato">Contato</a></li>
+    </ul>
+  </nav>
+
+  <section class="hero">
+    <h1>Seu imóvel ideal em<br><span>Barra Mansa</span></h1>
+    <p>Compra, venda e locação com quem conhece cada bairro da cidade. Atendimento personalizado e resultado garantido.</p>
+    <a href="https://wa.me/5524999999999" class="btn">Falar com Ueslei</a>
+  </section>
+
+  <section class="servicos" id="servicos">
+    <h2>O que eu faço por você</h2>
+    <div class="cards">
+      <div class="card">
+        <div class="icon">🏠</div>
+        <h3>Compra de Imóveis</h3>
+        <p>Encontro o imóvel certo para o seu perfil e orçamento, com segurança jurídica total.</p>
+      </div>
+      <div class="card">
+        <div class="icon">💰</div>
+        <h3>Venda Rápida</h3>
+        <p>Avaliação gratuita e estratégia de venda para valorizar seu imóvel no mercado local.</p>
+      </div>
+      <div class="card">
+        <div class="icon">🔑</div>
+        <h3>Locação</h3>
+        <p>Intermediação completa na locação, com análise de inquilino e contrato seguro.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="sobre" id="sobre">
+    <h2>Sobre Ueslei</h2>
+    <p>Corretor de imóveis credenciado pelo CRECI, atuando em Barra Mansa e região há mais de 10 anos. Especialista no mercado local, com centenas de negócios realizados e clientes satisfeitos.</p>
+  </section>
+
+  <section class="contato" id="contato">
+    <h2>Vamos conversar?</h2>
+    <p>Entre em contato agora e receba atendimento personalizado.</p>
+    <a href="https://wa.me/5524999999999" class="btn">📱 Chamar no WhatsApp</a>
+  </section>
+
+  <footer>
+    © 2025 Ueslei Corretor de Imóveis · CRECI/RJ · Barra Mansa
+  </footer>
+
+  <a href="https://wa.me/5524999999999" class="wpp-float" title="WhatsApp">💬</a>
+
+</body>
+</html>
